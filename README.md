@@ -6,7 +6,7 @@
   <h3 align="center">StrongPass</h3>
 
   <p align="center">
-    strongpass is a simple way to generate fast strong passwords using dev/urandom
+    strongpass is a simple way to generate fast strong passwords using /dev/urandom
     <br />
     <a href="https://github.com/VICXOR/strongpass/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
