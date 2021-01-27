@@ -1,0 +1,25 @@
+#!/bin/bash
+NOCOLOR='\033[0m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+ORANGE='\033[0;33m'
+cat << "END_OF_ASCII"
+
+
+   _____ _                         _____
+  / ____| |                       |  __ \
+ | (___ | |_ _ __ ___  _ __   __ _| |__) |_ _ ___ ___
+  \___ \| __| '__/ _ \| '_ \ / _` |  ___/ _` / __/ __|
+  ____) | |_| | | (_) | | | | (_| | |  | (_| \__ \__ \
+ |_____/ \__|_|  \___/|_| |_|\__, |_|   \__,_|___/___/
+                              __/ |
+                             |___/
+
+
+END_OF_ASCII
+echo "[STRONG ENOUGH]"
+echo -e ${RED}$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+echo -e ${NOCOLOR}"[STRONGER]"
+echo -e ${ORANGE}$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 128 | head -n 1)
+echo -e ${NOCOLOR}"[ULTRA STRONG]"
+echo -e ${GREEN}$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 214 | head -n 1)
