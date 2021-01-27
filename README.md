@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/VICXOR/FlagPoacher/blob/main/FlagPoacher.py">
-    <img src="https://www.unthsc.edu/Information-technology-services/wp-content/uploads/sites/55/Password.png" alt="Logo" width="150" height="250">
+    <img src="https://lh3.googleusercontent.com/proxy/8OumXZFReu346ZdcXejg2hTOS__yRNMpaqgP0o2AXKd5GiliWYIXJmPSdGtQZKpWRe7NE8-Tjo5H3p1iDALpYRdPcjvxn_DY8ijnE0vLRoI595AN" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">StrongPass</h3>
